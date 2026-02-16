@@ -1,0 +1,12 @@
+create DockerFile
+created docker-compose file 
+created .env file 
+created requirements.txt file
+created virual environment - python3.12 -m venv venv
+created main.py file 
+activated virtual environment file  - source venv/bin/activate
+installed libraries - pip3 install -r requirements.txt 
+
+docker compose up -d 
+# Pull model inside the Ollama container
+docker exec -it ollama ollama pull llama3.1

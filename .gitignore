@@ -1,0 +1,19 @@
+.env
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Ollama / models
+models/
+models/blobs
+models/manifest.json
+models/*.gguf
+
+*.gguf
+Llama-3.2-3B.Q4_K_M.gguf
+# Training artifacts
+outputs/
